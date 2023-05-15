@@ -1,0 +1,17 @@
+torch==1.13.1+cu117
+-f https://download.pytorch.org/whl/torch_stable.html
+pandas
+numpy
+scikit-learn
+loguru
+tqdm
+pythonnet
+msal
+rouge_chinese
+nltk
+jieba
+datasets
+transformers
+cpm_kernels
+accelerate
+sentencepiece
