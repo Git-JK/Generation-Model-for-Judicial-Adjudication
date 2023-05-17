@@ -1,0 +1,5 @@
+2023-05-18 01:16:41.194 | INFO     | __main__:main:218 - crime Accuracy: 0.29523809523809524
+2023-05-18 01:16:41.195 | INFO     | __main__:main:219 - crime Macro F1 Score: 0.17254824998606094
+2023-05-18 01:16:41.196 | INFO     | __main__:main:220 - period Accuracy: 0.35357142857142876
+2023-05-18 01:16:41.197 | INFO     | __main__:main:221 - law Macro F1 Score: 0.12130355209033275
+2023-05-18 01:16:41.197 | INFO     | __main__:main:222 - law Accuracy: 0.22023809523809523
