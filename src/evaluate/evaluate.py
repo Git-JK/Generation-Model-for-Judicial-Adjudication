@@ -12,7 +12,7 @@ import argparse
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--work_dir", type=str, default="analysis")
-    parser.add_argument("--test_set_path", type=str, default="output/adgen-chatglm-6b-pt-128-0.02/predictions.json")
+    parser.add_argument("--test_set_path", type=str, default="output/all_training_data/predictions.json")
     
     return parser.parse_args()
 
@@ -27,7 +27,7 @@ def extract_info(label: str):
     if label.find("罪名") != -1 and label.find("刑期") != -1:
         crime_list = label.split("罪名:")[1].split(",刑期")[0].split(",")
     elif label.find("罪名") != -1 and label.find("法条") != -1:
-        crime_list = label.split("刑期:")[1].split(",法条")[0].split(",")
+        crime_list = label.split("罪名:")[1].split(",法条")[0].split(",")
     elif label.find("罪名") != -1:
         crime_list = label.split("罪名:")[1].split(",")
     if label.find("刑期") != -1 and label.find("法条") != -1:

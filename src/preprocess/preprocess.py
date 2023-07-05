@@ -20,10 +20,10 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed_num", type=int, default=10)
     
-    parser.add_argument("--data_path", type=str, default="CAIL2018_ALL_DATA/final_all_data/exercise_contest/data_test.json")
+    parser.add_argument("--data_path", type=str, default="CAIL2018_ALL_DATA/final_all_data/exercise_contest/data_train.json")
     parser.add_argument("--model_name", type=str, default="THUDM/chatglm-6b")
     parser.add_argument("--law_path", type=str, default="CAIL2018_ALL_DATA/law_tmp.txt")
-    parser.add_argument("--target_path", type=str, default="new_data/test.json")
+    parser.add_argument("--target_path", type=str, default="new_data/train.json")
     
     return parser.parse_args()
 
@@ -85,7 +85,7 @@ def main(args):
         row_data = get_row_data(prompt, answer, origin_data, law_list, tokenizer)
         if row_data is not None:
             save_data_list.append(json.dumps(row_data, ensure_ascii=False) + '\n')
-    save_data_list = random.sample(save_data_list, int(len(save_data_list) / 5))
+    # save_data_list = random.sample(save_data_list, int(len(save_data_list) / 5))
     with open(target_path, 'w', encoding='utf-8') as f:
         f.writelines(save_data_list)
 

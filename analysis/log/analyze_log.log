@@ -1,5 +1,10 @@
-2023-05-18 01:16:41.194 | INFO     | __main__:main:218 - crime Accuracy: 0.29523809523809524
-2023-05-18 01:16:41.195 | INFO     | __main__:main:219 - crime Macro F1 Score: 0.17254824998606094
-2023-05-18 01:16:41.196 | INFO     | __main__:main:220 - period Accuracy: 0.35357142857142876
-2023-05-18 01:16:41.197 | INFO     | __main__:main:221 - law Macro F1 Score: 0.12130355209033275
-2023-05-18 01:16:41.197 | INFO     | __main__:main:222 - law Accuracy: 0.22023809523809523
+2023-06-22 11:00:30.741 | INFO     | __main__:main:218 - crime Accuracy: 0.30238025271818986
+2023-06-22 11:00:30.742 | INFO     | __main__:main:219 - crime Macro F1 Score: 0.1584692010863224
+2023-06-22 11:00:30.743 | INFO     | __main__:main:220 - period Accuracy: 0.3766088745224792
+2023-06-22 11:00:30.743 | INFO     | __main__:main:221 - law Macro F1 Score: 0.10481730077838307
+2023-06-22 11:00:30.744 | INFO     | __main__:main:222 - law Accuracy: 0.2347928298560094
+2023-06-22 11:00:44.081 | INFO     | __main__:main:218 - crime Accuracy: 0.7475756685277696
+2023-06-22 11:00:44.082 | INFO     | __main__:main:219 - crime Macro F1 Score: 0.6232859395526572
+2023-06-22 11:00:44.083 | INFO     | __main__:main:220 - period Accuracy: 0.4783426388480726
+2023-06-22 11:00:44.084 | INFO     | __main__:main:221 - law Macro F1 Score: 0.5931776978773768
+2023-06-22 11:00:44.085 | INFO     | __main__:main:222 - law Accuracy: 0.8107552159858948
